@@ -1,14 +1,17 @@
 package com.example.iotia;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class arbitrage extends AppCompatActivity {
+public class StatActivity extends AppCompatActivity {
+
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
-        setContentView(R.layout.arbitrage);
+        setContentView(R.layout.activity_stat);
     }
 }
