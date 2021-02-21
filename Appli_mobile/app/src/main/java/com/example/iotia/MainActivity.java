@@ -1,9 +1,9 @@
 package com.example.iotia;
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.widget.TextView;
+        import android.os.Bundle;
+        import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
