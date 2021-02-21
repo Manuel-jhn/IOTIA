@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/background"
+tools:context=".StatActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="114dp"
+        app:cardBackgroundColor="#39A056"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/resultat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/resultat"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:translationX="16dp"
+            android:translationY="64dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:translationX="16dp"
+            android:translationY="16dp"
+            app:srcCompat="@drawable/abc_vector_test" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        app:cardBackgroundColor="#1A652F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <TextView
+            android:id="@+id/nomJoueur1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joueur1"
+            android:textColor="#FFFF"
+            android:translationX="16dp"
+            android:translationY="40dp" />
+
+        <TextView
+            android:id="@+id/nomJoueur2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joueur2"
+            android:textColor="#FFFFFF"
+            android:translationX="16dp"
+            android:translationY="8dp" />
+
+        <TextView
+            android:id="@+id/joueur1set1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joueur1set1"
+            android:textColor="#ffff"
+            android:translationX="128dp"
+            android:translationY="8dp" />
+
+        <TextView
+            android:id="@+id/joueur1set2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joueur1set2"
+            android:textColor="#ffff"
+            android:translationX="160dp"
+            android:translationY="8dp" />
+
+        <TextView
+            android:id="@+id/joueur1set3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joueur1set3"
+            android:textColor="#ffff"
+            android:translationX="192dp"
+            android:translationY="8dp" />
+
+        <TextView
+            android:id="@+id/joueur2set1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joueur2set1"
+            android:textColor="#ffff"
+            android:translationX="128dp"
+            android:translationY="40dp" />
+
+        <TextView
+            android:id="@+id/joueur2set2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joueur2set2"
+            android:textColor="#ffff"
+            android:translationX="160dp"
+            android:translationY="40dp" />
+
+        <TextView
+            android:id="@+id/joueur2set3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joueur2set3"
+            android:textColor="#ffff"
+            android:translationX="192dp"
+            android:translationY="40dp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
