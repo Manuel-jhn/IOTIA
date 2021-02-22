@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">IOTIA</string>
-<<<<<<< HEAD
     <string name="bottom_navigation_menu_match">Match</string>
     <string name="bottom_navigation_menu_profil">Profil</string>
     <string name="bottom_navigation_menu_stats">Stats</string>
-=======
     <string name="title_activity_accueil">AccueilActivity</string>
     <!--
     This string is used for square devices and overridden by hello_world in
@@ -21,5 +19,4 @@
     <string name="joueur2set1">2</string>
     <string name="joueur2set2">6</string>
     <string name="joueur2set3">5</string>
->>>>>>> Manu
 </resources>

@@ -7,7 +7,7 @@
     android:background="@color/background">
 
     <Button
-        android:id="@+id/btnRetour"
+        android:id="@+id/btnFinMatch"
         android:layout_width="113dp"
         android:layout_height="46dp"
         android:layout_marginTop="16dp"
