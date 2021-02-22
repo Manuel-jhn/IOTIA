@@ -93,13 +93,90 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/btnRapportMatch1"
+            <TextView
+                android:id="@+id/some_id"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
-                android:text="Button"
+                android:background="@drawable/match_report"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow_right"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Match du 24/01/21"
                 android:textAlignment="viewStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/some_id2"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#B73838"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow_right"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Match du 22/01/21"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/some_id3"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#B73838"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow_right"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Match du 17/01/21"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/some_id4"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="@drawable/match_report"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow_right"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Match du 12/01/21"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/some_id5"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="@drawable/match_report"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow_right"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Match du 10/01/21"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/some_id7"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#B73838"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow_right"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Match du 12/12/20"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
         </LinearLayout>
     </ScrollView>
 
